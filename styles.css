@@ -1,19 +1,53 @@
 body {
+    margin: auto;
     background-color: antiquewhite;
-    padding: 20px;
-}
+    padding: 20px 625px 900px 625px;
+  }
   
-h1 {
-    background: white;
-    padding: 5px;
+  h1 {
+    display: flex;
+    justify-content: center;
+    background: orange;
+    color: white;
+    border: outset rgb(218, 125, 125) 4px;
+    width: 200px 0px 200px 0px;
+    padding: 15px;
     border-radius: 10px;
-}
+  }
   
-p {
+  p {
+    border: inset rgb(218, 115, 115) 2px;
     background-color: orange;
     color: white;
     border-radius: 10px;
-    width: 200px;
-    height: 20px;
+    width: 330px;
+    height: auto;
     padding: 5px;
+  }
+
+#theBox {
+    display: flex;
+    justify-content: center;
+}
+
+#theResult {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+button {
+    border: inset rgb(214, 103, 103);
+    color: white;
+    background-color: orange;
+}
+
+button:hover {
+    background-color: rgb(216, 86, 34);
+}
+
+button:active {
+    background-color: rgb(202, 104, 24);
+    box-shadow: 0 1px #a73e01;
+    transform: translateY(1px);
 }
